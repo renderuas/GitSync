@@ -1,0 +1,21 @@
+# GitHub Connection Settings
+github_url: "https://github.axa.com"
+github_username: "victor-ruiz"
+
+# Personal Access Token (PAT)
+# WARNING: To avoid committing secrets, you should keep this empty and set the 
+# GITHUB_PAT environment variable instead. If both are set, the environment variable takes precedence.
+github_pat: ""
+
+# List of folders in WSL to sync to GitHub
+folders:
+  - path: "/home/username/scripts/my-project"
+    # Optional: Custom repo name on GitHub (defaults to the folder name)
+    repo_name: "my-project-backup"
+    # Optional: Repo description on GitHub
+    description: "Backup of my WSL automation scripts"
+    # Optional: Visibility (defaults to true / private)
+    private: true
+
+  - path: "/home/username/work/data-tools"
+    # repo_name will default to "data-tools"
