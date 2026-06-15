@@ -1,6 +1,6 @@
 # WSL to GitHub Sync Utility
 
-This Python utility automates the process of syncing multiple local directories inside WSL (Ubuntu) to your corporate GitHub account (`victor-ruiz` at `https://github.axa.com`) as separate private repositories, without needing the GitHub CLI (`gh`).
+This Python utility automates the process of syncing multiple local directories inside WSL (Ubuntu) to your corporate GitHub account as separate private repositories, without needing the GitHub CLI (`gh`).
 
 ---
 
